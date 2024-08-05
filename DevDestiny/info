@@ -1,0 +1,390 @@
+{
+"id": "0",
+"name": "The Fool",
+"description": "невинность, новые начинания"
+},
+{
+"id": "1",
+"name": "The Magician",
+"description": "мастерство, проявление воли"
+},
+{
+"id": "2",
+"name": "The High Priestess",
+"description": "интуиция, тайные знания"
+},
+{
+"id": "3",
+"name": "The Empress",
+"description": "плодородие, изобилие"
+},
+{
+"id": "4",
+"name": "The Emperor",
+"description": "авторитет, структура"
+},
+{
+"id": "5",
+"name": "The Hierophant",
+"description": "традиция, духовное руководство"
+},
+{
+"id": "6",
+"name": "The Lovers",
+"description": "любовь, выбор"
+},
+{
+"id": "7",
+"name": "The Chariot",
+"description": "победа, контроль"
+},
+{
+"id": "8",
+"name": "Strength",
+"description": "сила, мужество"
+},
+{
+"id": "9",
+"name": "The Hermit",
+"description": "самоанализ, мудрость"
+},
+{
+"id": "10",
+"name": "Wheel of Fortune",
+"description": "судьба, изменения"
+},
+{
+"id": "11",
+"name": "Justice",
+"description": "справедливость, истина"
+},
+{
+"id": "12",
+"name": "The Hanged Man",
+"description": "жертва, новый взгляд"
+},
+{
+"id": "13",
+"name": "Death",
+"description": "трансформация, конец"
+},
+{
+"id": "14",
+"name": "Temperance",
+"description": "баланс, гармония"
+},
+{
+"id": "15",
+"name": "The Devil",
+"description": "привязанность, искушение"
+},
+{
+"id": "16",
+"name": "The Tower",
+"description": "разрушение, потрясение"
+},
+{
+"id": "17",
+"name": "The Star",
+"description": "надежда, вдохновение"
+},
+{
+"id": "18",
+"name": "The Moon",
+"description": "иллюзии, подсознание"
+},
+{
+"id": "19",
+"name": "The Sun",
+"description": "радость, успех"
+},
+{
+"id": "20",
+"name": "Judgement",
+"description": "возрождение, оценка"
+},
+{
+"id": "21",
+"name": "The World",
+"description": "завершение, целостность"
+},
+{
+"id": "22",
+"name": "Ace of Wands",
+"description": "вдохновение, потенциал"
+},
+{
+"id": "23",
+"name": "Two of Wands",
+"description": "планирование, решимость"
+},
+{
+"id": "24",
+"name": "Three of Wands",
+"description": "расширение, перспективы"
+},
+{
+"id": "25",
+"name": "Four of Wands",
+"description": "празднование, стабильность"
+},
+{
+"id": "26",
+"name": "Five of Wands",
+"description": "конфликт, соревнование"
+},
+{
+"id": "27",
+"name": "Six of Wands",
+"description": "победа, признание"
+},
+{
+"id": "28",
+"name": "Seven of Wands",
+"description": "защита, стойкость"
+},
+{
+"id": "29",
+"name": "Eight of Wands",
+"description": "скорость, движение"
+},
+{
+"id": "30",
+"name": "Nine of Wands",
+"description": "настойчивость, выносливость"
+},
+{
+"id": "31",
+"name": "Ten of Wands",
+"description": "бремя, ответственность"
+},
+{
+"id": "32",
+"name": "Page of Wands",
+"description": "энтузиазм, исследование"
+},
+{
+"id": "33",
+"name": "Knight of Wands",
+"description": "страсть, авантюра"
+},
+{
+"id": "34",
+"name": "Queen of Wands",
+"description": "влияние, уверенность"
+},
+{
+"id": "35",
+"name": "King of Wands",
+"description": "лидерство, видение"
+},
+{
+"id": "36",
+"name": "Ace of Cups",
+"description": "любовь, новые эмоции"
+},
+{
+"id": "37",
+"name": "Two of Cups",
+"description": "партнерство, единство"
+},
+{
+"id": "38",
+"name": "Three of Cups",
+"description": "дружба, радость"
+},
+{
+"id": "39",
+"name": "Four of Cups",
+"description": "апатия, рефлексия"
+},
+{
+"id": "40",
+"name": "Five of Cups",
+"description": "разочарование, сожаление"
+},
+{
+"id": "41",
+"name": "Six of Cups",
+"description": "воспоминания, ностальгия"
+},
+{
+"id": "42",
+"name": "Seven of Cups",
+"description": "фантазии, выбор"
+},
+{
+"id": "43",
+"name": "Eight of Cups",
+"description": "отказ, поиск"
+},
+{
+"id": "44",
+"name": "Nine of Cups",
+"description": "удовлетворение, желание"
+},
+{
+"id": "45",
+"name": "Ten of Cups",
+"description": "гармония, счастье"
+},
+{
+"id": "46",
+"name": "Page of Cups",
+"description": "творчество, интуиция"
+},
+{
+"id": "47",
+"name": "Knight of Cups",
+"description": "романтика, идеализм"
+},
+{
+"id": "48",
+"name": "Queen of Cups",
+"description": "сострадание, забота"
+},
+{
+"id": "49",
+"name": "King of Cups",
+"description": "мудрость, дипломатия"
+},
+{
+"id": "50",
+"name": "Ace of Swords",
+"description": "ясность, правда"
+},
+{
+"id": "51",
+"name": "Two of Swords",
+"description": "неопределенность, решение"
+},
+{
+"id": "52",
+"name": "Three of Swords",
+"description": "боль, разлука"
+},
+{
+"id": "53",
+"name": "Four of Swords",
+"description": "покой, восстановление"
+},
+{
+"id": "54",
+"name": "Five of Swords",
+"description": "конфликт, победа любой ценой"
+},
+{
+"id": "55",
+"name": "Six of Swords",
+"description": "переход, путешествие"
+},
+{
+"id": "56",
+"name": "Seven of Swords",
+"description": "хитрость, избегание"
+},
+{
+"id": "57",
+"name": "Eight of Swords",
+"description": "ограничение, страх"
+},
+{
+"id": "58",
+"name": "Nine of Swords",
+"description": "тревога, беспокойство"
+},
+{
+"id": "59",
+"name": "Ten of Swords",
+"description": "крах, завершение"
+},
+{
+"id": "60",
+"name": "Page of Swords",
+"description": "любознательность, наблюдение"
+},
+{
+"id": "61",
+"name": "Knight of Swords",
+"description": "решимость, стремительность"
+},
+{
+"id": "62",
+"name": "Queen of Swords",
+"description": "независимость, ясность"
+},
+{
+"id": "63",
+"name": "King of Swords",
+"description": "логика, авторитет"
+},
+{
+"id": "64",
+"name": "Ace of Pentacles",
+"description": "новые начинания, возможности"
+},
+{
+"id": "65",
+"name": "Two of Pentacles",
+"description": "баланс, адаптация"
+},
+{
+"id": "66",
+"name": "Three of Pentacles",
+"description": "сотрудничество, мастерство"
+},
+{
+"id": "67",
+"name": "Four of Pentacles",
+"description": "контроль, владение"
+},
+{
+"id": "68",
+"name": "Five of Pentacles",
+"description": "лишения, нужда"
+},
+{
+"id": "69",
+"name": "Six of Pentacles",
+"description": "щедрость, помощь"
+},
+{
+"id": "70",
+"name": "Seven of Pentacles",
+"description": "терпение, оценка"
+},
+{
+"id": "71",
+"name": "Eight of Pentacles",
+"description": "мастерство, работа"
+},
+{
+"id": "72",
+"name": "Nine of Pentacles",
+"description": "успех, независимость"
+},
+{
+"id": "73",
+"name": "Ten of Pentacles",
+"description": "наследие, безопасность"
+},
+{
+"id": "74",
+"name": "Page of Pentacles",
+"description": "учеба, новые начинания"
+},
+{
+"id": "75",
+"name": "Knight of Pentacles",
+"description": "надежность, усердие"
+},
+{
+"id": "76",
+"name": "Queen of Pentacles",
+"description": "практичность, забота"
+},
+{
+"id": "77",
+"name": "King of Pentacles",
+"description": "богатство, безопасность"
+}

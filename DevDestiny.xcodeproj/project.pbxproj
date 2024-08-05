@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		929B13092C61795700E64F66 /* info in Resources */ = {isa = PBXBuildFile; fileRef = 929B13082C61795700E64F66 /* info */; };
 		92EE526C2C29BAB70018EF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE526B2C29BAB70018EF9A /* AppDelegate.swift */; };
 		92EE526E2C29BAB70018EF9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE526D2C29BAB70018EF9A /* SceneDelegate.swift */; };
 		92EE52702C29BAB70018EF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE526F2C29BAB70018EF9A /* ViewController.swift */; };
 		92EE52732C29BAB70018EF9A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 92EE52722C29BAB70018EF9A /* Base */; };
 		92EE52752C29BAB80018EF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92EE52742C29BAB80018EF9A /* Assets.xcassets */; };
 		92EE52782C29BAB80018EF9A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 92EE52772C29BAB80018EF9A /* Base */; };
+		92EE52802C29C48F0018EF9A /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE527F2C29C48F0018EF9A /* Package.swift */; };
+		92EE52832C29DF120018EF9A /* Shuffle in Frameworks */ = {isa = PBXBuildFile; productRef = 92EE52822C29DF120018EF9A /* Shuffle */; };
+		92EE529F2C29E0180018EF9A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 92EE52842C29E0180018EF9A /* .gitkeep */; };
+		92EE52A02C29E0180018EF9A /* Animator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52862C29E0180018EF9A /* Animator.swift */; };
+		92EE52A12C29E0180018EF9A /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52872C29E0180018EF9A /* Array+Extensions.swift */; };
+		92EE52A22C29E0180018EF9A /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52882C29E0180018EF9A /* CGPoint+Extensions.swift */; };
+		92EE52A32C29E0180018EF9A /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52892C29E0180018EF9A /* CGVector+Extensions.swift */; };
+		92EE52A42C29E0180018EF9A /* PanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE528A2C29E0180018EF9A /* PanGestureRecognizer.swift */; };
+		92EE52A52C29E0180018EF9A /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE528B2C29E0180018EF9A /* StringUtils.swift */; };
+		92EE52A62C29E0180018EF9A /* TapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE528C2C29E0180018EF9A /* TapGestureRecognizer.swift */; };
+		92EE52A72C29E0180018EF9A /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE528D2C29E0180018EF9A /* UIView+Extensions.swift */; };
+		92EE52A82C29E0180018EF9A /* CardAnimationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE528F2C29E0180018EF9A /* CardAnimationOptions.swift */; };
+		92EE52A92C29E0180018EF9A /* CardAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52902C29E0180018EF9A /* CardAnimator.swift */; };
+		92EE52AA2C29E0180018EF9A /* SwipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52912C29E0180018EF9A /* SwipeCard.swift */; };
+		92EE52AB2C29E0180018EF9A /* SwipeCardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52922C29E0180018EF9A /* SwipeCardDelegate.swift */; };
+		92EE52AC2C29E0180018EF9A /* SwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52932C29E0180018EF9A /* SwipeView.swift */; };
+		92EE52AD2C29E0180018EF9A /* CardStackAnimationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52952C29E0180018EF9A /* CardStackAnimationOptions.swift */; };
+		92EE52AE2C29E0180018EF9A /* CardStackAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52962C29E0180018EF9A /* CardStackAnimator.swift */; };
+		92EE52AF2C29E0180018EF9A /* CardStackStateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52972C29E0180018EF9A /* CardStackStateManager.swift */; };
+		92EE52B02C29E0180018EF9A /* SwipeCardStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52982C29E0180018EF9A /* SwipeCardStack.swift */; };
+		92EE52B12C29E0180018EF9A /* SwipeCardStackDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52992C29E0180018EF9A /* SwipeCardStackDataSource.swift */; };
+		92EE52B22C29E0180018EF9A /* SwipeCardStackDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE529A2C29E0180018EF9A /* SwipeCardStackDelegate.swift */; };
+		92EE52B32C29E0180018EF9A /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE529C2C29E0180018EF9A /* SwipeDirection.swift */; };
+		92EE52B52C29E1920018EF9A /* CustomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE52B42C29E1920018EF9A /* CustomCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		929B13082C61795700E64F66 /* info */ = {isa = PBXFileReference; lastKnownFileType = text; path = info; sourceTree = "<group>"; };
 		92EE52682C29BAB70018EF9A /* DevDestiny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevDestiny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92EE526B2C29BAB70018EF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92EE526D2C29BAB70018EF9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +50,29 @@
 		92EE52742C29BAB80018EF9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92EE52772C29BAB80018EF9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92EE52792C29BAB80018EF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92EE527F2C29C48F0018EF9A /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		92EE52842C29E0180018EF9A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		92EE52862C29E0180018EF9A /* Animator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animator.swift; sourceTree = "<group>"; };
+		92EE52872C29E0180018EF9A /* Array+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		92EE52882C29E0180018EF9A /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		92EE52892C29E0180018EF9A /* CGVector+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		92EE528A2C29E0180018EF9A /* PanGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanGestureRecognizer.swift; sourceTree = "<group>"; };
+		92EE528B2C29E0180018EF9A /* StringUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringUtils.swift; sourceTree = "<group>"; };
+		92EE528C2C29E0180018EF9A /* TapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapGestureRecognizer.swift; sourceTree = "<group>"; };
+		92EE528D2C29E0180018EF9A /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		92EE528F2C29E0180018EF9A /* CardAnimationOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAnimationOptions.swift; sourceTree = "<group>"; };
+		92EE52902C29E0180018EF9A /* CardAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardAnimator.swift; sourceTree = "<group>"; };
+		92EE52912C29E0180018EF9A /* SwipeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCard.swift; sourceTree = "<group>"; };
+		92EE52922C29E0180018EF9A /* SwipeCardDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardDelegate.swift; sourceTree = "<group>"; };
+		92EE52932C29E0180018EF9A /* SwipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeView.swift; sourceTree = "<group>"; };
+		92EE52952C29E0180018EF9A /* CardStackAnimationOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackAnimationOptions.swift; sourceTree = "<group>"; };
+		92EE52962C29E0180018EF9A /* CardStackAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackAnimator.swift; sourceTree = "<group>"; };
+		92EE52972C29E0180018EF9A /* CardStackStateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardStackStateManager.swift; sourceTree = "<group>"; };
+		92EE52982C29E0180018EF9A /* SwipeCardStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardStack.swift; sourceTree = "<group>"; };
+		92EE52992C29E0180018EF9A /* SwipeCardStackDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardStackDataSource.swift; sourceTree = "<group>"; };
+		92EE529A2C29E0180018EF9A /* SwipeCardStackDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCardStackDelegate.swift; sourceTree = "<group>"; };
+		92EE529C2C29E0180018EF9A /* SwipeDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeDirection.swift; sourceTree = "<group>"; };
+		92EE52B42C29E1920018EF9A /* CustomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EE52832C29DF120018EF9A /* Shuffle in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +106,7 @@
 		92EE526A2C29BAB70018EF9A /* DevDestiny */ = {
 			isa = PBXGroup;
 			children = (
+				92EE529E2C29E0180018EF9A /* Shuffle */,
 				92EE526B2C29BAB70018EF9A /* AppDelegate.swift */,
 				92EE526D2C29BAB70018EF9A /* SceneDelegate.swift */,
 				92EE526F2C29BAB70018EF9A /* ViewController.swift */,
@@ -63,8 +114,80 @@
 				92EE52742C29BAB80018EF9A /* Assets.xcassets */,
 				92EE52762C29BAB80018EF9A /* LaunchScreen.storyboard */,
 				92EE52792C29BAB80018EF9A /* Info.plist */,
+				92EE527F2C29C48F0018EF9A /* Package.swift */,
+				92EE52B42C29E1920018EF9A /* CustomCard.swift */,
+				929B13082C61795700E64F66 /* info */,
 			);
 			path = DevDestiny;
+			sourceTree = "<group>";
+		};
+		92EE52852C29E0180018EF9A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				92EE52842C29E0180018EF9A /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		92EE528E2C29E0180018EF9A /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				92EE52862C29E0180018EF9A /* Animator.swift */,
+				92EE52872C29E0180018EF9A /* Array+Extensions.swift */,
+				92EE52882C29E0180018EF9A /* CGPoint+Extensions.swift */,
+				92EE52892C29E0180018EF9A /* CGVector+Extensions.swift */,
+				92EE528A2C29E0180018EF9A /* PanGestureRecognizer.swift */,
+				92EE528B2C29E0180018EF9A /* StringUtils.swift */,
+				92EE528C2C29E0180018EF9A /* TapGestureRecognizer.swift */,
+				92EE528D2C29E0180018EF9A /* UIView+Extensions.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		92EE52942C29E0180018EF9A /* SwipeCard */ = {
+			isa = PBXGroup;
+			children = (
+				92EE528F2C29E0180018EF9A /* CardAnimationOptions.swift */,
+				92EE52902C29E0180018EF9A /* CardAnimator.swift */,
+				92EE52912C29E0180018EF9A /* SwipeCard.swift */,
+				92EE52922C29E0180018EF9A /* SwipeCardDelegate.swift */,
+				92EE52932C29E0180018EF9A /* SwipeView.swift */,
+			);
+			path = SwipeCard;
+			sourceTree = "<group>";
+		};
+		92EE529B2C29E0180018EF9A /* SwipeCardStack */ = {
+			isa = PBXGroup;
+			children = (
+				92EE52952C29E0180018EF9A /* CardStackAnimationOptions.swift */,
+				92EE52962C29E0180018EF9A /* CardStackAnimator.swift */,
+				92EE52972C29E0180018EF9A /* CardStackStateManager.swift */,
+				92EE52982C29E0180018EF9A /* SwipeCardStack.swift */,
+				92EE52992C29E0180018EF9A /* SwipeCardStackDataSource.swift */,
+				92EE529A2C29E0180018EF9A /* SwipeCardStackDelegate.swift */,
+			);
+			path = SwipeCardStack;
+			sourceTree = "<group>";
+		};
+		92EE529D2C29E0180018EF9A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				92EE528E2C29E0180018EF9A /* Internal */,
+				92EE52942C29E0180018EF9A /* SwipeCard */,
+				92EE529B2C29E0180018EF9A /* SwipeCardStack */,
+				92EE529C2C29E0180018EF9A /* SwipeDirection.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		92EE529E2C29E0180018EF9A /* Shuffle */ = {
+			isa = PBXGroup;
+			children = (
+				92EE52852C29E0180018EF9A /* Assets */,
+				92EE529D2C29E0180018EF9A /* Classes */,
+			);
+			name = Shuffle;
+			path = "../../../../Library/Developer/Xcode/DerivedData/DevDestiny-damxocurozhtstdnaeayrjaydenq/SourcePackages/checkouts/Shuffle/Sources/Shuffle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +206,9 @@
 			dependencies = (
 			);
 			name = DevDestiny;
+			packageProductDependencies = (
+				92EE52822C29DF120018EF9A /* Shuffle */,
+			);
 			productName = DevDestiny;
 			productReference = 92EE52682C29BAB70018EF9A /* DevDestiny.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +237,9 @@
 				Base,
 			);
 			mainGroup = 92EE525F2C29BAB70018EF9A;
+			packageReferences = (
+				92EE52812C29DF120018EF9A /* XCRemoteSwiftPackageReference "Shuffle" */,
+			);
 			productRefGroup = 92EE52692C29BAB70018EF9A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				929B13092C61795700E64F66 /* info in Resources */,
 				92EE52752C29BAB80018EF9A /* Assets.xcassets in Resources */,
 				92EE52782C29BAB80018EF9A /* Base in Resources */,
 				92EE52732C29BAB70018EF9A /* Base in Resources */,
+				92EE529F2C29E0180018EF9A /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +269,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92EE52B32C29E0180018EF9A /* SwipeDirection.swift in Sources */,
+				92EE52AD2C29E0180018EF9A /* CardStackAnimationOptions.swift in Sources */,
+				92EE52A22C29E0180018EF9A /* CGPoint+Extensions.swift in Sources */,
+				92EE52A02C29E0180018EF9A /* Animator.swift in Sources */,
+				92EE52A12C29E0180018EF9A /* Array+Extensions.swift in Sources */,
+				92EE52B02C29E0180018EF9A /* SwipeCardStack.swift in Sources */,
+				92EE52802C29C48F0018EF9A /* Package.swift in Sources */,
+				92EE52B52C29E1920018EF9A /* CustomCard.swift in Sources */,
+				92EE52AE2C29E0180018EF9A /* CardStackAnimator.swift in Sources */,
+				92EE52AF2C29E0180018EF9A /* CardStackStateManager.swift in Sources */,
+				92EE52B12C29E0180018EF9A /* SwipeCardStackDataSource.swift in Sources */,
+				92EE52A42C29E0180018EF9A /* PanGestureRecognizer.swift in Sources */,
+				92EE52B22C29E0180018EF9A /* SwipeCardStackDelegate.swift in Sources */,
+				92EE52A32C29E0180018EF9A /* CGVector+Extensions.swift in Sources */,
+				92EE52A92C29E0180018EF9A /* CardAnimator.swift in Sources */,
+				92EE52A72C29E0180018EF9A /* UIView+Extensions.swift in Sources */,
+				92EE52AC2C29E0180018EF9A /* SwipeView.swift in Sources */,
+				92EE52A52C29E0180018EF9A /* StringUtils.swift in Sources */,
 				92EE52702C29BAB70018EF9A /* ViewController.swift in Sources */,
 				92EE526C2C29BAB70018EF9A /* AppDelegate.swift in Sources */,
+				92EE52A62C29E0180018EF9A /* TapGestureRecognizer.swift in Sources */,
+				92EE52A82C29E0180018EF9A /* CardAnimationOptions.swift in Sources */,
+				92EE52AA2C29E0180018EF9A /* SwipeCard.swift in Sources */,
 				92EE526E2C29BAB70018EF9A /* SceneDelegate.swift in Sources */,
+				92EE52AB2C29E0180018EF9A /* SwipeCardDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,11 +448,12 @@
 				DEVELOPMENT_TEAM = 47M342TKQP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DevDestiny/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,9 +461,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hehe.DevDestiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,11 +480,12 @@
 				DEVELOPMENT_TEAM = 47M342TKQP;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DevDestiny/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -335,9 +493,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = hehe.DevDestiny;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -363,6 +524,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		92EE52812C29DF120018EF9A /* XCRemoteSwiftPackageReference "Shuffle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mac-gallagher/Shuffle";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		92EE52822C29DF120018EF9A /* Shuffle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 92EE52812C29DF120018EF9A /* XCRemoteSwiftPackageReference "Shuffle" */;
+			productName = Shuffle;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 92EE52602C29BAB70018EF9A /* Project object */;
 }
